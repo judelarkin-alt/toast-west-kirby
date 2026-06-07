@@ -13,12 +13,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 
+/* REAL IMAGE BACKGROUND */
 background:
 linear-gradient(
-  rgba(255, 210, 140, 0.35),
-  rgba(255, 140, 80, 0.35)
+  rgba(255, 245, 220, 0.65),
+  rgba(255, 200, 140, 0.55)
 ),
-url("https://images.unsplash.com/photo-1525351484163-7529414344d8") center/cover no-repeat;
+url("https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=80") 
+center/cover no-repeat;
 
 background-size: cover;
 background-position: center;
@@ -26,18 +28,6 @@ background-attachment: fixed;
 
 color: white;
 text-align: center;
-}
-
-.overlay h1 {
-font-size: 90px;
-letter-spacing: 8px;
-color: #fff2d6;
-margin: 0;
-}
-
-.overlay p {
-font-size: 18px;
-opacity: 0.9;
 }
 
 /* BUTTON */
