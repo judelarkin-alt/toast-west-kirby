@@ -12,11 +12,20 @@ height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
+
 background:
-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-url("https://images.unsplash.com/photo-1509042239860-f550ce710b93") center/cover;
+linear-gradient(
+  rgba(255, 210, 140, 0.35),
+  rgba(255, 140, 80, 0.35)
+),
+url("https://images.unsplash.com/photo-1525351484163-7529414344d8") center/cover no-repeat;
+
+background-size: cover;
+background-position: center;
 background-attachment: fixed;
+
 color: white;
+text-align: center;
 }
 
 .overlay h1 {
